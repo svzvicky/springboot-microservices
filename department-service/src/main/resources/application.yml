@@ -5,6 +5,9 @@ server:
 spring:
   application:
     name: DEPARTMENT-SERVICE
+  h2:
+    console:
+      enabled: true
   
 #Logging COnfiguration
 logging:
