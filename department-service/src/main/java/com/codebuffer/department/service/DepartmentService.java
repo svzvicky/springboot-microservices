@@ -22,7 +22,7 @@ public class DepartmentService {
         return responseDept;
     }
 
-    public Department findDepartmentByiD(Long departmentId) {
+    public Department findDepartmentById(Long departmentId) {
         log.info("Inside findDepartmentByiD of DepartmentService");
         return departmentRepository.findByDepartmentId(departmentId);
         //return departmentRepository.findById(departmentId).get();
