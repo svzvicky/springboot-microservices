@@ -15,5 +15,10 @@ public class FallBackMethodController {
 	public String departmentServiceFallBackMethod() {
 		return "User Servive is taking longer than Expected. Please try again later.";
 	}
+	
+	@GetMapping("/registrationServiceFallBack")
+	public String registrationServiceFallBackMethod() {
+		return "User Servive is taking longer than Expected. Please try again later.";
+	}
 
 }
