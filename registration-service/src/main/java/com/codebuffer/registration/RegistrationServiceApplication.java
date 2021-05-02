@@ -1,4 +1,4 @@
-package com.codebuffer.registration.service;
+package com.codebuffer.registration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
